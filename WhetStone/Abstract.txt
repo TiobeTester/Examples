@@ -1,0 +1,25 @@
+The WhetStone project is a simple program for the ST 'STM32F103RB' microcontroller
+using Keil 'MCBSTM32' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS V2.0).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+ - USART1 settings:
+   - 115200 baud, 8 data bits, no parity, 1 stop bit
+
+This program contains the Whetstone benchmarks.
+
+Whetstone is a benchmark test which attempts to
+measure the speed and efficiency at which a computer
+performs floating-point operations.  The results of
+the test are given in units called whetstones.
+
+
+The program is available in different targets:
+
+  STM32F103 Simulator:  configured for software Simulator
+
+  STM32F103 Flash:      configured for on-chip Flash
+                        (used for production or target debugging)

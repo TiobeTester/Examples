@@ -1,0 +1,21 @@
+The Memory project is a simple program for the ST 'STM32F103RB' microcontroller
+using Keil 'MCBSTM32' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS V2.0).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+
+
+The Memory program demonstrates how to setup a simple
+custom Memory Layout for the selected Target.
+
+It shows how to define Memory regions which are mapped
+to actual Memory like ROM, RAM, FLASH ...
+It also shows how to setup the Stack and Heap.
+
+
+The program is available for target:
+
+  STM32F103 Simulator:  configured for software Simulator

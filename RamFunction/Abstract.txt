@@ -1,0 +1,30 @@
+The RamFunction project is a simple program for the ST 'STM32F103RB' microcontroller
+using Keil 'MCBSTM32' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS V2.0).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+
+
+The RamFunction program demonstrates how to define a function that
+executes in RAM. This may be useful for IAP Flash programming or to
+improve to the performance with slow external Flash devices.
+
+Functions that are be executed in RAM should reside in a seperate
+source module. Using the 'Options for File' dialog you can simply change
+the 'Code / Const' area of a module to a memory space in physical RAM.
+
+Available memory areas are declared in the 'Target' tab of the
+'Options for Target' dialog.
+
+In this example the internal RAM area is split into two areas IRAM1, IRAM2.
+
+
+The program is available in different targets:
+
+  STM32F103 Simulator:  configured for software Simulator
+
+  STM32F103 Flash:      configured for on-chip Flash
+                        (used for production or target debugging)

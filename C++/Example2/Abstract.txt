@@ -1,0 +1,23 @@
+The CppSamp project is a simple program for the ST 'STM32F103RB' microcontroller
+using Keil 'MCBSTM32' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS V2.0).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+
+
+The C++ Examples 2 shows some features of the C++ language:
+
+  - Opeation Overloading
+  - Name Spaces
+  - Friend Functions
+
+
+The program is available in different targets:
+
+  STM32F103 Simulator:  configured for software Simulator
+
+  STM32F103 Flash:      configured for on-chip Flash
+                        (used for production or target debugging)

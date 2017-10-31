@@ -1,0 +1,25 @@
+The Traffic project is a simple RTX Kernel based example for the
+ST 'STM32F103RB' microcontroller using Keil 'MCBSTM32' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS V2.0).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+ - USART1 settings:
+   - 115200 baud, 8 data bits, no parity, 1 stop bit
+
+
+Traffic is a program that controls a traffic light.
+
+The traffic light is timed and lets cars pass during a
+specific time period.  There is a pedestrial crossing button (S3)
+that lets pedestrians cross.
+
+
+The program is available in different targets:
+
+  STM32F103 Simulator:  configured for software Simulator
+
+  STM32F103 Flash:      configured for on-chip Flash
+                        (used for production or target debugging)

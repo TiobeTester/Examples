@@ -1,0 +1,25 @@
+The Hello project is a simple program for the ST 'STM32F103RB' microcontroller
+using Keil 'MCBSTM32' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS V2.0).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =            8.00 MHz
+   - SYSCLK  =           72.00 MHz
+ - USART1 settings:
+   - 115200 baud, 8 data bits, no parity, 1 stop bit
+
+
+The Hello program is a very simple program that prints "Hello World"
+to the serial port USART1 of the STM32F103.  When you can successfully
+build and run this program, you have used the entire toolset including:
+  - The uVision integrated development environment.
+  - The Real-View compiler, linker and the µVision simulator/debugger.
+
+
+The program is available in different targets:
+
+  STM32F103 Simulator:  configured for software Simulator
+
+  STM32F103 Flash:      configured for on-chip Flash
+                        (used for production or target debugging)
